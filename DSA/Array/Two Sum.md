@@ -13,10 +13,13 @@
 ## Approach
   - Iterate the given array.
   - Check for the complement value present in the hashtable.
-  - If the complement value is present return the current index and complement index. 
+  - If the complement value is present (`using find() for better undetstanding`) return the current index and complement index. 
   - Else in a hashtable add a entry  with  complement values (`target - nums[i]`) as key and `index` as value.
+  -  ### Complexity
+      - Time : `O(n)`
+      - Space: `O(n)`  
 
-  ## Code
+## Code
 
   ```c++
   class Solution {
